@@ -1,2 +1,4 @@
 # Project exclude paths
 /vanilla/node_modules/
+/react-app/node_modules/
+/vue-app/node_modules/
