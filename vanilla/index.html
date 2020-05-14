@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In your fridge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class=" flex">
+<div class="container w-2/3 mx-auto mt-10">
+    <form id="input-form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <h1>What's in your fridge?</h1>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="contents">
+                List some stuff you have in your fridge
+            </label>
+            <input id="contents" type="text" placeholder="onions, milk">
+        </div>
+        <div class="flex  justify-end">
+            <button id="submit-button" class="submit" type="submit">Show me options</button>
+        </div>
+    </form>
+    <div id="results-container" class="w-full"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
